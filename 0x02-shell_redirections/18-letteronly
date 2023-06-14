@@ -1,2 +1,2 @@
 #!/bin/bash
-grap -i /etc/ssh/sshd_config
+grap  '^[[:upper:]]\|^[[:lower:]]' /etc/ssh/sshd_config
